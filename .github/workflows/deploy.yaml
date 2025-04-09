@@ -3,6 +3,7 @@ name: Auto Deploy Flask Web App
 on:
   pull_request:
     types: [closed]
+  workflow_dispatch:
 
 env:
   AWS_REGION: ap-southeast-1
